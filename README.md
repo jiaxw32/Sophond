@@ -1,2 +1,2 @@
 # Sophond
-An iOS daemon application.
+A magic iOS daemon application.

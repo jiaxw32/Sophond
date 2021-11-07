@@ -1,0 +1,351 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		372B63272737704F00616E52 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 372B63262737704F00616E52 /* main.c */; };
+		372B632F273771AB00616E52 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 372B632E273771AB00616E52 /* UIKit.framework */; };
+		372B6331273773E700616E52 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 372B6330273773E700616E52 /* CoreFoundation.framework */; };
+		372B633C2737740700616E52 /* RuntimeInvoker.m in Sources */ = {isa = PBXBuildFile; fileRef = 372B63342737740700616E52 /* RuntimeInvoker.m */; };
+		372B633E2737743200616E52 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 372B633D2737743200616E52 /* CoreGraphics.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		372B63212737704F00616E52 /* control */ = {isa = PBXFileReference; lastKnownFileType = text; path = control; sourceTree = "<group>"; };
+		372B63222737704F00616E52 /* Sophond.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Sophond.entitlements; sourceTree = "<group>"; };
+		372B63262737704F00616E52 /* main.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; path = main.c; sourceTree = "<group>"; };
+		372B632E273771AB00616E52 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk/System/iOSSupport/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		372B6330273773E700616E52 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		372B63342737740700616E52 /* RuntimeInvoker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RuntimeInvoker.m; sourceTree = "<group>"; };
+		372B63352737740700616E52 /* RuntimeInvoker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RuntimeInvoker.h; sourceTree = "<group>"; };
+		372B63372737740700616E52 /* SBApplicationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBApplicationController.h; sourceTree = "<group>"; };
+		372B63382737740700616E52 /* SBUIController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBUIController.h; sourceTree = "<group>"; };
+		372B63392737740700616E52 /* SpringBoardServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpringBoardServices.h; sourceTree = "<group>"; };
+		372B633A2737740700616E52 /* GSEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSEvent.h; sourceTree = "<group>"; };
+		372B633B2737740700616E52 /* GSWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSWindow.h; sourceTree = "<group>"; };
+		372B633D2737743200616E52 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		372B631B2737704F00616E52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				372B633E2737743200616E52 /* CoreGraphics.framework in Frameworks */,
+				372B6331273773E700616E52 /* CoreFoundation.framework in Frameworks */,
+				372B632F273771AB00616E52 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		372B63152737704F00616E52 = {
+			isa = PBXGroup;
+			children = (
+				372B631E2737704F00616E52 /* Sophond */,
+				372B632D273771AB00616E52 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		372B631E2737704F00616E52 /* Sophond */ = {
+			isa = PBXGroup;
+			children = (
+				372B63362737740700616E52 /* Headers */,
+				372B63322737740700616E52 /* Vendor */,
+				372B63222737704F00616E52 /* Sophond.entitlements */,
+				372B63262737704F00616E52 /* main.c */,
+				372B631F2737704F00616E52 /* Package */,
+			);
+			path = Sophond;
+			sourceTree = "<group>";
+		};
+		372B631F2737704F00616E52 /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				372B63202737704F00616E52 /* DEBIAN */,
+				372B63232737704F00616E52 /* usr */,
+			);
+			path = Package;
+			sourceTree = "<group>";
+		};
+		372B63202737704F00616E52 /* DEBIAN */ = {
+			isa = PBXGroup;
+			children = (
+				372B63212737704F00616E52 /* control */,
+			);
+			path = DEBIAN;
+			sourceTree = "<group>";
+		};
+		372B63232737704F00616E52 /* usr */ = {
+			isa = PBXGroup;
+			children = (
+				372B63242737704F00616E52 /* bin */,
+			);
+			path = usr;
+			sourceTree = "<group>";
+		};
+		372B63242737704F00616E52 /* bin */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = bin;
+			sourceTree = "<group>";
+		};
+		372B632D273771AB00616E52 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				372B633D2737743200616E52 /* CoreGraphics.framework */,
+				372B6330273773E700616E52 /* CoreFoundation.framework */,
+				372B632E273771AB00616E52 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		372B63322737740700616E52 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				372B63332737740700616E52 /* RuntimeInvoker */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		372B63332737740700616E52 /* RuntimeInvoker */ = {
+			isa = PBXGroup;
+			children = (
+				372B63342737740700616E52 /* RuntimeInvoker.m */,
+				372B63352737740700616E52 /* RuntimeInvoker.h */,
+			);
+			path = RuntimeInvoker;
+			sourceTree = "<group>";
+		};
+		372B63362737740700616E52 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				372B63372737740700616E52 /* SBApplicationController.h */,
+				372B63382737740700616E52 /* SBUIController.h */,
+				372B63392737740700616E52 /* SpringBoardServices.h */,
+				372B633A2737740700616E52 /* GSEvent.h */,
+				372B633B2737740700616E52 /* GSWindow.h */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		372B631D2737704F00616E52 /* Sophond */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 372B632A2737704F00616E52 /* Build configuration list for PBXNativeTarget "Sophond" */;
+			buildPhases = (
+				372B631A2737704F00616E52 /* Sources */,
+				372B631B2737704F00616E52 /* Frameworks */,
+				372B631C2737704F00616E52 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sophond;
+			productName = Sophond;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		372B63162737704F00616E52 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					372B631D2737704F00616E52 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 372B63192737704F00616E52 /* Build configuration list for PBXProject "Sophond" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 372B63152737704F00616E52;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				372B631D2737704F00616E52 /* Sophond */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		372B631C2737704F00616E52 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/MonkeyDev/bin/md --xcbp";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		372B631A2737704F00616E52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				372B63272737704F00616E52 /* main.c in Sources */,
+				372B633C2737740700616E52 /* RuntimeInvoker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		372B63282737704F00616E52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(MonkeyDevPath)/frameworks/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LIBRARY_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/lib/**";
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				OTHER_CFLAGS = "-DTHEOS_INSTANCE_NAME=\"\\\"Sophond\\\"\"";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		372B63292737704F00616E52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(MonkeyDevPath)/frameworks/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LIBRARY_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/lib/**";
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-DTHEOS_INSTANCE_NAME=\"\\\"Sophond\\\"\"";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		372B632B2737704F00616E52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGN_ENTITLEMENTS = Sophond/Sophond.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W999U46577;
+				INSTALL_PATH = /usr/bin;
+				MonkeyDevBuildPackageOnAnyBuild = NO;
+				MonkeyDevClearUiCacheOnInstall = NO;
+				MonkeyDevCopyOnBuild = NO;
+				MonkeyDevDeviceIP = localhost;
+				MonkeyDevDevicePassword = admin;
+				MonkeyDevDevicePort = 2222;
+				MonkeyDevInstallOnAnyBuild = YES;
+				MonkeyDevInstallOnProfiling = YES;
+				MonkeyDevkillProcessOnInstall = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		372B632C2737704F00616E52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGN_ENTITLEMENTS = Sophond/Sophond.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W999U46577;
+				INSTALL_PATH = /usr/bin;
+				MonkeyDevBuildPackageOnAnyBuild = NO;
+				MonkeyDevClearUiCacheOnInstall = NO;
+				MonkeyDevCopyOnBuild = NO;
+				MonkeyDevDeviceIP = localhost;
+				MonkeyDevDevicePassword = admin;
+				MonkeyDevDevicePort = 2222;
+				MonkeyDevInstallOnAnyBuild = YES;
+				MonkeyDevInstallOnProfiling = YES;
+				MonkeyDevkillProcessOnInstall = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		372B63192737704F00616E52 /* Build configuration list for PBXProject "Sophond" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				372B63282737704F00616E52 /* Release */,
+				372B63292737704F00616E52 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		372B632A2737704F00616E52 /* Build configuration list for PBXNativeTarget "Sophond" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				372B632B2737704F00616E52 /* Release */,
+				372B632C2737704F00616E52 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 372B63162737704F00616E52 /* Project object */;
+}
